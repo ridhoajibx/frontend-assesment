@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" defer></script>
@@ -23,9 +24,13 @@
 <body>
     <header>
         <!-- Desktop header -->
-        <div id="top-link">       
-            <marquee onmouseout="this.setAttribute('scrollamount', 5, 0);" onmouseover="this.setAttribute('scrollamount', 0, 0);" scrollamount="5" class="text-warning" style="color:#FFDD00; font-weight:bold;">
-                    SELAMAT DATANG DI SITUS RGOCASINO - NIKMATI SEMUA PERMAINAN HANYA DENGAN 1 USERID SAJA | DAPATKAN BONUS MEMBER BARU HINGGA IDR 10.000.000 | JAGA KERAHASIAAN DATA ANDA UNTUK MENGHINDARI PERBUATAN ORANG YANG TIDAK BERTANGGUNG JAWAB......		
+        <div id="top-link">
+            <marquee onmouseout="this.setAttribute('scrollamount', 5, 0);"
+                onmouseover="this.setAttribute('scrollamount', 0, 0);" scrollamount="5" class="text-warning"
+                style="color:#FFDD00; font-weight:bold;">
+                SELAMAT DATANG DI SITUS RGOCASINO - NIKMATI SEMUA PERMAINAN HANYA DENGAN 1 USERID SAJA | DAPATKAN BONUS
+                MEMBER BARU HINGGA IDR 10.000.000 | JAGA KERAHASIAAN DATA ANDA UNTUK MENGHINDARI PERBUATAN ORANG YANG
+                TIDAK BERTANGGUNG JAWAB......
             </marquee>
         </div>
         <div class="container d-none d-md-block">
@@ -210,8 +215,8 @@
                 <div class="col-12">
                     <div class="row">
                         <div class="col-3" style="width: 20%;">
-                            <a class="btn btn-default btn-sm collapsed" role="button" data-toggle="collapse"
-                                href="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu"
+                            <a class="btn btn-default btn-sm collapsed" data-bs-toggle="collapse" href="#collapseMenu"
+                                role="button" aria-expanded="false" aria-controls="collapseMenu"
                                 style="margin-top:6px;">
                                 <i class="fa fa-bars" style="font-size:24px; vertical-align:middle;"></i>
                             </a>
@@ -233,6 +238,33 @@
             </div>
         </nav>
 
+        <div class="mb-5"></div>
+
+        <div class="collapse mt-5" id="collapseMenu">
+            <div class="container">
+                <div class="collapseMenu">
+                    <h5 class="text-sm fw-bold">Menu</h5>
+                    <div class="row" style="margin-bottom: 0px;">
+                        <div class="col-4 text-center">
+                            <a href="#" class="btn btn-sm btn-info font-white" style="width:100%;font-size:10px;">
+                                <i class="fa fa-home"></i><br>Home
+                            </a>
+                        </div>
+                        <div class="col-4 text-center">
+                            <a href="#" class="btn btn-sm btn-info font-white" style="width:100%;font-size:10px;">
+                                <i class="fa fa-money-bill-alt"></i><br>Referral
+                            </a>
+                        </div>
+                        <div class="col-4 text-center">
+                            <a href="#" class="btn btn-sm btn-info font-white" style="width:100%;font-size:10px;">
+                                <i class="fa fa-question"></i><br>FAQ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container d-block d-sm-none">
             <div class="col-12 news-link">
                 <div class="row align-items-center">
@@ -240,40 +272,14 @@
                         <span>News :</span>
                     </div>
                     <div class="col-9">
-                        <div id="top-link">       
-                            <marquee onmouseout="this.setAttribute('scrollamount', 5, 0);" onmouseover="this.setAttribute('scrollamount', 0, 0);" scrollamount="5" class="text-warning" style="color:#FFDD00; font-weight:bold;">
-                                    SELAMAT DATANG DI SITUS RGOCASINO - NIKMATI SEMUA PERMAINAN HANYA DENGAN 1 USERID SAJA | DAPATKAN BONUS MEMBER BARU HINGGA IDR 10.000.000 | JAGA KERAHASIAAN DATA ANDA UNTUK MENGHINDARI PERBUATAN ORANG YANG TIDAK BERTANGGUNG JAWAB......		
+                        <div id="top-link">
+                            <marquee onmouseout="this.setAttribute('scrollamount', 5, 0);"
+                                onmouseover="this.setAttribute('scrollamount', 0, 0);" scrollamount="5"
+                                class="text-warning" style="color:#FFDD00; font-weight:bold;">
+                                SELAMAT DATANG DI SITUS RGOCASINO - NIKMATI SEMUA PERMAINAN HANYA DENGAN 1 USERID SAJA |
+                                DAPATKAN BONUS MEMBER BARU HINGGA IDR 10.000.000 | JAGA KERAHASIAAN DATA ANDA UNTUK
+                                MENGHINDARI PERBUATAN ORANG YANG TIDAK BERTANGGUNG JAWAB......
                             </marquee>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="collapse" id="collapseMenu" aria-expanded="false" style="height: 0px;">
-                    <div class="well well-sm">
-                        <h5>Menu</h5>
-                        <div class="row" style="margin-bottom: 0px;">
-                            <div class="col-xs-4 text-center">
-                                <a href="#" class="btn btn-sm btn-info"
-                                    style="width:100%;font-size:10px;">
-                                    <i class="fa fa-home fa-2x fa-fw"></i><br>Home
-                                </a>
-                            </div>
-                            <div class="col-xs-4 text-center">
-                                <a href="#" class="btn btn-sm btn-info"
-                                    style="width:100%;font-size:10px;">
-                                    <i class="fa fa-money fa-2x fa-fw"></i><br>Referral
-                                </a>
-                            </div>
-                            <div class="col-xs-4 text-center">
-                                <a href="#" class="btn btn-sm btn-info"
-                                    style="width:100%;font-size:10px;">
-                                    <i class="fa fa-question fa-2x fa-fw"></i><br>FAQ
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>
