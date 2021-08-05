@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" defer></script>
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <title>Live Casino Indonesia</title>
+</head>
+
+<body>
+    <header>
+        <!-- Desktop header -->
+        <div id="top-link">       
+            <marquee onmouseout="this.setAttribute('scrollamount', 5, 0);" onmouseover="this.setAttribute('scrollamount', 0, 0);" scrollamount="5" class="text-warning" style="color:#FFDD00; font-weight:bold;">
+                    SELAMAT DATANG DI SITUS RGOCASINO - NIKMATI SEMUA PERMAINAN HANYA DENGAN 1 USERID SAJA | DAPATKAN BONUS MEMBER BARU HINGGA IDR 10.000.000 | JAGA KERAHASIAAN DATA ANDA UNTUK MENGHINDARI PERBUATAN ORANG YANG TIDAK BERTANGGUNG JAWAB......		
+            </marquee>
+        </div>
+        <div class="container d-none d-md-block">
+            <div class="row">
+                <div class="col-3 mt-4">
+                    <a href="#">
+                        <img src="https://91.233.198.11/_aps4497/assets/images/logo-rgocasino.png"
+                            alt="rgocasino-live-casino-indonesia-terbaik" width="230px">
+                    </a>
+                </div>
+                <div class="col-8 offset-1">
+                    <form class="row align-items-center m-3 justify-content-end">
+                        <div class="col-3 px-1">
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control text-sm" id="username" placeholder="Username">
+                                <span class="input-group-text" id="basic-addon2"><i class="fa fa-user"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="col-3 px-1">
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control text-sm" id="password" placeholder="Password">
+                                <span class="input-group-text" id="basic-addon2"><i class="fa fa-lock"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="col-auto px-1">
+                            <button type="submit" class="btn btn-warning btn-sm text-sm" style="width:70px;"
+                                id="btn_form_login" data-loading-text="Loading...">Sign In</button>
+                        </div>
+                    </form>
+
+                    <form class="row align-items-center m-3 justify-content-end">
+                        <div class="col-3 px-1">
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control text-sm" id="capcha" placeholder="capcha"
+                                    style="width: 150px;">
+                            </div>
+                        </div>
+
+                        <div class="col-auto px-1">
+                            <label>
+                                <span id="captcha_div_login"><img class="captcha"
+                                        src="https://91.233.198.11/user/captcha_get/55/23/4/sess_code_user_login" />
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="col-auto px-1 text-sm">
+                            <a href="#" id="lupaPassword">Lupa
+                                Password ?</a>
+                            <a href="#" class="btn btn-danger btn-sm text-sm" style='width:70px'>Register</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-none d-md-block">
+            <div class="row">
+                <div class="col-12">
+                    <div id="navigation" style="width:100%; padding:0;">
+                        <ul id="nav" style="width:100%; padding:0;">
+                            <li class="nav-item first-nav-item selected-nav-item">
+                                <a href="#" class="nav-a">
+                                    <span>
+                                        <strong>Home</strong>
+                                    </span>
+                                </a>
+                                <span class="main-nav-separator"></span>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-a">
+                                    <span>
+                                        <strong>Games</strong>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-a">
+                                    <span>
+                                        <strong>Daftar</strong>
+                                    </span>
+                                </a>
+                                <span class="main-nav-separator"></span>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-a">
+                                    <span>
+                                        <strong>Panduan</strong>
+                                    </span>
+                                </a>
+                                <span class="main-nav-separator"></span>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-a">
+                                    <span>
+                                        <strong>Referral</strong>
+                                    </span>
+                                </a>
+                                <span class="main-nav-separator"></span>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-a">
+                                    <span>
+                                        <strong>Promo</strong>
+                                    </span>
+                                </a>
+                                <span class="main-nav-separator"></span>
+                            </li>
+                            <li class="nav-item last-nav-item">
+                                <a href="#" class="nav-a">
+                                    <span>
+                                        <strong>Nawala</strong>
+                                    </span>
+                                </a>
+                                <span class="main-nav-separator"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="width:100%; padding:0;">
+                        <ul id="subnav" style="width:100%; padding:0;">
+                            <li class="sub-nav-item default-subnav-item">
+                                <a class="subnav-a" href="#">
+                                    <span class="subnav-span">
+                                        <strong>Dingdong</strong>
+                                    </span>
+                                </a>
+                                <span class="sub-nav-separator"></span>
+                            </li>
+                            <li class="sub-nav-item default-subnav-item">
+                                <a class="subnav-a" href="#">
+                                    <span class="subnav-span">
+                                        <strong>Togel</strong>
+                                    </span>
+                                </a>
+                                <span class="sub-nav-separator"></span>
+                            </li>
+                            <li class="sub-nav-item default-subnav-item">
+                                <a class="subnav-a" href="#">
+                                    <span class="subnav-span">
+                                        <strong>Live Casino</strong>
+                                    </span>
+                                </a>
+                                <span class="sub-nav-separator"></span>
+                            </li>
+                            <li class="sub-nav-item default-subnav-item">
+                                <a class="subnav-a" href="#">
+                                    <span class="subnav-span">
+                                        <strong>Card Games</strong>
+                                    </span>
+                                </a>
+                                <span class="sub-nav-separator"></span>
+                            </li>
+                            <li class="sub-nav-item first-subnav-item">
+                                <a class="subnav-a" href="#">
+                                    <span class="subnav-span">
+                                        <strong>Sportsbook</strong>
+                                    </span>
+                                </a>
+                                <span class="sub-nav-separator"></span>
+                            </li>
+                            <li class="sub-nav-item default-subnav-item">
+                                <a class="subnav-a" href="#">
+                                    <span class="subnav-span">
+                                        <strong>E-Games</strong>
+                                    </span>
+                                </a>
+                                <span class="sub-nav-separator"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Desktop header end -->
+
+        <!-- Mobile Header -->
+        <nav class="navbar navbar-default fixed-top d-block d-sm-none">
+            <div class="container">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-3" style="width: 20%;">
+                            <a class="btn btn-default btn-sm collapsed" role="button" data-toggle="collapse"
+                                href="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu"
+                                style="margin-top:6px;">
+                                <i class="fa fa-bars" style="font-size:24px; vertical-align:middle;"></i>
+                            </a>
+                        </div>
+                        <div class="col-6 text-center">
+                            <a href="https://91.233.198.11/m/lobby"><img
+                                    src="https://91.233.198.11/m/assets/images/logo-rgocasino.png" width="170px"
+                                    style="margin-top:6px;max-width:100%"></a>
+                        </div>
+                        <div class="col-3 text-end">
+                            <a class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal"
+                                style="margin-top:6px; padding: 0px 10px; font-size:10px;">
+                                <i class="fa fa-sign-in-alt" style="font-size:20px; vertical-align:middle;"></i>
+                                <br> Login
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container d-block d-sm-none">
+            <div class="col-12 news-link">
+                <div class="row align-items-center">
+                    <div class="col-3 text-center text-sm fw-bold">
+                        <span>News :</span>
+                    </div>
+                    <div class="col-9">
+                        <div id="top-link">       
+                            <marquee onmouseout="this.setAttribute('scrollamount', 5, 0);" onmouseover="this.setAttribute('scrollamount', 0, 0);" scrollamount="5" class="text-warning" style="color:#FFDD00; font-weight:bold;">
+                                    SELAMAT DATANG DI SITUS RGOCASINO - NIKMATI SEMUA PERMAINAN HANYA DENGAN 1 USERID SAJA | DAPATKAN BONUS MEMBER BARU HINGGA IDR 10.000.000 | JAGA KERAHASIAAN DATA ANDA UNTUK MENGHINDARI PERBUATAN ORANG YANG TIDAK BERTANGGUNG JAWAB......		
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="collapse" id="collapseMenu" aria-expanded="false" style="height: 0px;">
+                    <div class="well well-sm">
+                        <h5>Menu</h5>
+                        <div class="row" style="margin-bottom: 0px;">
+                            <div class="col-xs-4 text-center">
+                                <a href="#" class="btn btn-sm btn-info"
+                                    style="width:100%;font-size:10px;">
+                                    <i class="fa fa-home fa-2x fa-fw"></i><br>Home
+                                </a>
+                            </div>
+                            <div class="col-xs-4 text-center">
+                                <a href="#" class="btn btn-sm btn-info"
+                                    style="width:100%;font-size:10px;">
+                                    <i class="fa fa-money fa-2x fa-fw"></i><br>Referral
+                                </a>
+                            </div>
+                            <div class="col-xs-4 text-center">
+                                <a href="#" class="btn btn-sm btn-info"
+                                    style="width:100%;font-size:10px;">
+                                    <i class="fa fa-question fa-2x fa-fw"></i><br>FAQ
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile header end -->
+    </header>
+
+    <div id="main">
+        <!-- top -->
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-12 col-md-9">
+                    <div class="swiper-container" id="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide px-4 pt-1 mx-auto">
+                                <img class="img-fluid"
+                                    src="https://rgocasino-s3.s3-ap-southeast-1.amazonaws.com/images/home/RGOCASINO_0686_SLIDERWEB.jpg"
+                                    alt="">
+                            </div>
+                            <div class="swiper-slide px-4 pt-1 mx-auto">
+                                <img class="img-fluid"
+                                    src="https://rgocasino-s3.s3-ap-southeast-1.amazonaws.com/images/home/RGOCASINO_0377_SLIDERWEB.jpg"
+                                    alt="">
+                            </div>
+                            <div class="swiper-slide px-4 pt-1 mx-auto">
+                                <img class="img-fluid"
+                                    src="https://rgocasino-s3.s3-ap-southeast-1.amazonaws.com/images/home/RGOCASINO_0686_SLIDERWEB.jpg"
+                                    alt="">
+                            </div>
+                            <div class="swiper-slide px-4 pt-1 mx-auto">
+                                <img class="img-fluid"
+                                    src="https://rgocasino-s3.s3-ap-southeast-1.amazonaws.com/images/home/RGOKASINO_0323_SLIDERWEB.jpg"
+                                    alt="">
+                            </div>
+                            <div class="swiper-slide px-4 pt-1 mx-auto">
+                                <img class="img-fluid"
+                                    src="https://rgocasino-s3.s3-ap-southeast-1.amazonaws.com/images/home/RGOCASINO_0377_SLIDERWEB.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="col-3 bg-blue p-2 d-none d-md-block">
+                    <div class="col-12">
+                        <div class="col-12">
+                            <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                                <img src="https://rgocasino-s3.s3-ap-southeast-1.amazonaws.com/images/others/halamandepancardgames.jpg"
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                                <img src="https://rgocasino-s3.s3-ap-southeast-1.amazonaws.com/images/others/halamadepandd.jpg"
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end top -->
+
+        <!-- Mobile nav middle -->
+        <div class="container mt-5 d-block d-sm-none">
+            <div class="row">
+                <div class="col-12">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="text-center">
+                                    <a href="#">
+                                        <img src="https://91.233.198.11/m/assets/images/lobby/icon-sport.png"
+                                            width="50">
+                                        <br>SPORTS
+                                    </a>
+                                </td>
+                                <td class="text-center">
+                                    <a href="#">
+                                        <img src="https://91.233.198.11/m/assets/images/lobby/icon-casino.png"
+                                            width="50">
+                                        <br>CASINO
+                                    </a>
+                                </td>
+                                <td class="text-center">
+                                    <a href="#" target="_blank_slot">
+                                        <img src="https://91.233.198.11/m/assets/images/home/icon-egames.png"
+                                            width="50">
+                                        <br>E-GAMES
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">
+                                    <a href="#">
+                                        <i class="fa fa-gift" style="color: #2a8fbd; font-size: 1.5rem;"></i>
+                                        <br>PROMOSI
+                                    </a>
+                                </td>
+                                <td class="text-center">
+                                    <a href="#">
+                                        <i class="fa fa-pencil-alt" style="color: #2a8fbd; font-size: 1.5rem;"></i>
+                                        <br>DAFTAR
+                                    </a>
+                                </td>
+                                <td class="text-center">
+                                    <a href="#">
+                                        <i class="fa fa-comment-dots" style="color: #2a8fbd; font-size: 1.5rem;"></i>
+                                        <br>LIVECHAT
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile nav middle end -->
+
+        <!-- card -->
+        <div class="container">
+            <div class="col-12 my-3">
+                <div class="row">
+                    <div class="col-12 col-md-3 mt-3">
+                        <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                            <img class="img-fluid"
+                                src="https://91.233.198.11/_aps4497/assets/images/lobbyrgocasino/LOBBY-RGO-CASINO-dingdong.png">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3">
+                        <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                            <img class="img-fluid"
+                                src="https://91.233.198.11/_aps4497/assets/images/lobbyrgocasino/banner-hkbgaming.jpg">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3 d-none d-md-block">
+                        <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                            <img class="img-fluid"
+                                src="https://91.233.198.11/_aps4497/assets/images/lobbyrgocasino/rgocasino-lobby-ogplus.png?2">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3 d-none d-md-block">
+                        <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                            <img class="img-fluid"
+                                src="https://91.233.198.11/_aps4497/assets/images/lobbyrgocasino/rgocasino-vivo-lobbygame.jpg">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3 d-none d-md-block">
+                        <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                            <img class="img-fluid"
+                                src="https://91.233.198.11/_aps4497/assets/images/lobbyrgocasino/LOBBY-RGO-CASINO-dingdong.png">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3 d-none d-md-block">
+                        <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                            <img class="img-fluid"
+                                src="https://91.233.198.11/_aps4497/assets/images/lobbyrgocasino/banner-hkbgaming.jpg">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3 d-none d-md-block">
+                        <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                            <img class="img-fluid"
+                                src="https://91.233.198.11/_aps4497/assets/images/lobbyrgocasino/rgocasino-lobby-ogplus.png?2">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3 d-none d-md-block">
+                        <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                            <img class="img-fluid"
+                                src="https://91.233.198.11/_aps4497/assets/images/lobbyrgocasino/rgocasino-vivo-lobbygame.jpg">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3 d-none d-md-block">
+                        <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                            <img class="img-fluid"
+                                src="https://91.233.198.11/_aps4497/assets/images/lobbyrgocasino/LOBBY-RGO-CASINO-dingdong.png">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3 d-none d-md-block">
+                        <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                            <img class="img-fluid"
+                                src="https://91.233.198.11/_aps4497/assets/images/lobbyrgocasino/banner-hkbgaming.jpg">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3 d-none d-md-block">
+                        <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                            <img class="img-fluid"
+                                src="https://91.233.198.11/_aps4497/assets/images/lobbyrgocasino/rgocasino-lobby-ogplus.png?2">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3 d-none d-md-block">
+                        <a href="https://91.233.198.11/daftar-live-casino-sportsbook">
+                            <img class="img-fluid"
+                                src="https://91.233.198.11/_aps4497/assets/images/lobbyrgocasino/rgocasino-vivo-lobbygame.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end card -->
+
+        <!-- slider content -->
+        <div class="container d-none d-md-block">
+            <div class="row">
+                <div class="col-12 my-4">
+                    <div class="swiper-container bg-blue p-4" id="swiper-container2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide px-2 active-slider">
+                                <img src="https://91.233.198.11/_aps4497/assets/images/home/slider-casino-6.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="swiper-slide px-2">
+                                <img src="https://91.233.198.11/_aps4497/assets/images/home/slider-casino-6.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="swiper-slide px-2">
+                                <img src="https://91.233.198.11/_aps4497/assets/images/home/slider-casino-6.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="swiper-slide px-2">
+                                <img src="https://91.233.198.11/_aps4497/assets/images/home/slider-casino-6.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="swiper-slide px-2">
+                                <img src="https://91.233.198.11/_aps4497/assets/images/home/slider-casino-6.jpg"
+                                    class="img-fluid">
+                            </div>
+                            <div class="swiper-slide px-2">
+                                <img src="https://91.233.198.11/_aps4497/assets/images/home/slider-casino-6.jpg"
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- slider content end -->
+
+        <!-- Social media -->
+        <div class="container d-none d-md-block">
+            <div class="col-12 mb-4">
+                <div class="row">
+                    <div class="col-2 offset-1">
+                        <a target="_blank" href="https://www.instagram.com/rgocasino999/">
+                            <img src="https://91.233.198.11/_aps4497/assets/images/home/rgo-ig.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a target="_blank" href="http://facebook.com/rgocasino">
+                            <img src="https://91.233.198.11/_aps4497/assets/images/home/rgo-fb.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a target="_blank" href="https://twitter.com/rgocasino99">
+                            <img src="https://91.233.198.11/_aps4497/assets/images/home/rgo-twitter.jpg"
+                                class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCsh0HEZlhJS5sqtFqUEUHEw">
+                            <img src="https://91.233.198.11/_aps4497/assets/images/home/rgo-youtube.jpg"
+                                class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a target="_blank" href="http://rgoclub1.com/">
+                            <img src="https://91.233.198.11/_aps4497/assets/images/home/wordpress_rgo.jpg"
+                                class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Social media end -->
+
+        <!-- Bank Information -->
+        <div class="container">
+            <h3 class="bank-title">Status Bank
+            </h3>
+            <div class="bank-content">
+                <div class="col-12">
+                    <div class="p-4 d-none d-md-flex align-items-center">
+                        <div class="col-12 col-md-7">
+                            <div class="row justify-content-center">
+                                <div class="col-4 col-md-2">
+                                    <img class="img-fluid"
+                                        src="https://91.233.198.11/_aps4497/assets/images/bank/bank-BCA.png?2">
+                                    <img class="img-fluid"
+                                        src="https://91.233.198.11/_aps4497/assets/images/bank/online1.gif?1">
+                                </div>
+
+                                <div class="col-4 col-md-2">
+                                    <img class="img-fluid"
+                                        src="https://91.233.198.11/_aps4497/assets/images/bank/bank-MANDIRI.png?2">
+                                    <img class="img-fluid"
+                                        src="https://91.233.198.11/_aps4497/assets/images/bank/online1.gif?1">
+                                </div>
+
+                                <div class="col-4 col-md-2">
+                                    <img class="img-fluid"
+                                        src="https://91.233.198.11/_aps4497/assets/images/bank/bank-BNI.png?2">
+                                    <img class="img-fluid"
+                                        src="https://91.233.198.11/_aps4497/assets/images/bank/online1.gif?1">
+                                </div>
+
+                                <div class="col-4 col-md-2">
+                                    <img class="img-fluid"
+                                        src="https://91.233.198.11/_aps4497/assets/images/bank/bank-BRI.png?2">
+                                    <img class="img-fluid"
+                                        src="https://91.233.198.11/_aps4497/assets/images/bank/online1.gif?1">
+                                </div>
+
+                                <div class="col-4 col-md-2">
+                                    <img class="img-fluid"
+                                        src="https://91.233.198.11/_aps4497/assets/images/bank/bank-DANAMON.png?2">
+                                    <img class="img-fluid"
+                                        src="https://91.233.198.11/_aps4497/assets/images/bank/online1.gif?1">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-5" style="border-left: 1px solid #FFF;">
+                            <div class="row px-4">
+                                <div class="col-3" style="width: 25%;">
+                                    <a href="#">
+                                        <img class="img-fluid"
+                                            src="https://91.233.198.11/_aps4497/assets/images/home/rgoclub-bandar-poker-togel-casino-baccarat-roulette-sicbo-blackjack.png">
+                                    </a>
+                                </div>
+                                <div class="col-3" style="width: 25%;">
+                                    <a href="#">
+                                        <img class="img-fluid"
+                                            src="https://91.233.198.11/_aps4497/assets/images/home/rgopoker-situs-judi-poker-online-indonesia.png">
+                                    </a>
+                                </div>
+                                <div class="col-3" style="width: 25%;">
+                                    <a href="#">
+                                        <img class="img-fluid"
+                                            src="https://91.233.198.11/_aps4497/assets/images/home/rgotogel-situs-judi-togel-online-indonesia.png">
+                                    </a>
+                                </div>
+                                <div class="col-3" style="width: 25%;">
+                                    <a href="#">
+                                        <img class="img-fluid"
+                                            src="https://91.233.198.11/_aps4497/assets/images/home/rgobet.png?1">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row py-2 px-2 d-sm-none">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img width="60" src="https://91.233.198.11/m/assets/images/BCA.png?2">
+                                </div>
+                                <div class="col-6 text-sm fw-bold">
+                                    <span style="text-shadow: 0 0 2px #999; color: #0F0;">ONLINE</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img width="60" src="https://91.233.198.11/m/assets/images/MANDIRI.png?2">
+                                </div>
+                                <div class="col-6 text-sm fw-bold">
+                                    <span style="text-shadow: 0 0 2px #999; color: #0F0;">ONLINE</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img width="60" src="https://91.233.198.11/m/assets/images/BNI.png?2">
+                                </div>
+                                <div class="col-6 text-sm fw-bold">
+                                    <span style="text-shadow: 0 0 2px #999; color: #0F0;">ONLINE</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img width="60" src="https://91.233.198.11/m/assets/images/BRI.png?2">
+                                </div>
+                                <div class="col-6 text-sm fw-bold">
+                                    <span style="text-shadow: 0 0 2px #999; color: #0F0;">ONLINE</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img width="60" src="https://91.233.198.11/m/assets/images/DANAMON.png?2">
+                                </div>
+                                <div class="col-6 text-sm fw-bold">
+                                    <span style="text-shadow: 0 0 2px #999; color: #0F0;">ONLINE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bank information end -->
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="col-12 mb-2 text-center">
+                <img class="img-fluid" src="https://91.233.198.11/_aps4497/assets/images/banner_pagcor.jpg">
+            </div>
+            <div class="row">
+                <div class="col-12 mb-4 font-white text-center text-sm">
+                    <small>Copyright © 2015 Rgocasino. All Rights Reserved. </small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

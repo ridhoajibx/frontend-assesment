@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
+body {
+    font-family: Georama;
+    background: #0b1c2e url('https://rgocasino-s3.s3-ap-southeast-1.amazonaws.com/images/bg/rgocasino_background.jpg') no-repeat fixed center top;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Georama;
+    font-size: 0.8rem
+}
+
+.container {
+    max-width: 1054px;
+}
+
+.text-sm {
+    font-size: 0.8rem !important;
+}
+
+.font-white {
+    color: #fff !important;
+}
+
+.bg-blue {
+    background: #131d29;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #485563;
+    border-color: transparent;
+    opacity: .8;
+}
+
+.btn-default:hover {
+    color: #ffffff;
+    opacity: 1;
+}
+
+/* Top-link */
+#top-link {
+    background-color: #131d29;
+    padding-top: 5px ;
+    font-size: .8rem;
+}
+/* top-link end */
+
+.news-link {
+    background-color: #4E5D6C;
+    padding: 10px;
+    margin-top: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/* Navigation */
+
+#navigation {
+    margin-top: 0px;
+}
+
+#nav {
+    display: table;
+    list-style: outside none none;
+    margin: 0;
+    width: 100%;
+    padding-left: o;
+}
+
+#nav .nav-item {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+}
+
+#nav .nav-a {
+    background-position: -10px 0;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+    height: 40px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#nav .nav-a, #nav .nav-a SPAN {
+    display: block;
+}
+
+#nav .nav-a SPAN {
+    display: block;
+    font-family: Georama;
+    font-size: 15px;
+    height: 17px;
+    line-height: 17px;
+    margin: 0 12px;
+    padding: 14px 0 9px;
+}
+
+#nav .first-nav-item .nav-a {
+    background-position: 0 0;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+    height: 40px;
+}
+
+#nav .last-nav-item .nav-a {
+    background-position: 100% 0;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+    height: 40px;
+}
+
+#nav .nav-a:hover {
+    background-position: -10px -70px;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+    height: 40px;
+}
+
+#nav .first-nav-item .nav-a:hover {
+    background-position: 0 -70px;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+    height: 40px;
+}
+
+#nav .last-nav-item .nav-a:hover {
+    background-position: 100% -70px;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+    height: 40px;
+}
+
+#nav .selected-nav-item {
+    z-index: 100;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+    height: 40px;
+}
+
+#nav .selected-nav-item .nav-a, #nav .selected-nav-item .nav-a:hover {
+    background-position: 100% -180px;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+    height: 40px;
+    margin: 0 -5px;
+}
+
+#nav .selected-nav-item .nav-a SPAN, #nav .selected-nav-item .nav-a SPAN:hover {
+    background-position: 0 -180px;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+    height: 40px;
+    margin-left: 0;
+    padding: 11px 5px 12px;
+}
+
+#nav .selected-nav-item .nav-a SPAN STRONG {
+    margin-left: 12px;
+}
+
+.main-nav-separator, .sub-nav-separator {
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav-separator.png?1");
+    background-repeat: repeat-y;
+    display: block;
+    float: right;
+    height: 30px;
+    margin-top: -30px;
+    position: relative;
+    top: 0;
+    width: 2px;
+    z-index: 10;
+}
+
+.main-nav-separator {
+    top: -2px;
+}
+
+.nav-item.selected-nav-item .main-nav-separator, .nav-item.last-nav-item .main-nav-separator {
+    display: none;
+}
+
+#subnav {
+    background-position: 64px -40px;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+    list-style: outside none none;
+    margin: 0;
+    width: 100%;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+#subnav .sub-nav-item {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.sub-nav-item .subnav-a {
+    background-position: -10px -40px;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+    display: block;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.sub-nav-item .subnav-a SPAN {
+    display: block;
+    font-family: Georama;
+    font-size: 12px;
+    padding: 6px 50px 0;
+}
+
+.sub-nav-item .subnav-a SPAN STRONG {
+    font-weight: normal;
+}
+
+.sub-nav-item.first-subnav-item .subnav-a {
+    background-position: 0 -40px;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+}
+
+.sub-nav-item .subnav-a:hover, .sub-nav-item.selected-subnav-item .subnav-a {
+    background-position: -10px -110px;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+}
+
+.sub-nav-item.first-subnav-item .subnav-a:hover {
+    background-position: 0 -110px;
+    background-image: url("https://91.233.198.11/_aps4497/assets/images/nav.png?1");
+}
+
+/* Mobile Nav */
+
+.navbar-default {
+    background-color: #4e5d6c;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #ebebeb;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ebebeb;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-text {
+    color: #ebebeb;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ebebeb;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #ebebeb;
+    background-color: #485563;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ebebeb;
+    background-color: #485563;
+}
+
+.navbar-default .navbar-nav>.disabled>a, .navbar-default .navbar-nav>.disabled>a:hover, .navbar-default .navbar-nav>.disabled>a:focus {
+    color: #cccccc;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #485563;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ebebeb;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #485563;
+    color: #ebebeb;
+}
+
+/* End Mobile Nav */
+
+/* Bank */
+
+.bank-title {
+    display: none;
+    background-color: #485563;
+}
+
+.bank-content {
+    background-color: #131d29;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .bank-title {
+        display: flex;
+        justify-content: center;
+        background-color: #485563;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 0;
+        font-size: .8rem;
+        padding: 10px 0;
+    }
+    .bank-content {
+        background-color: #4E5D6C;
+    }
+}
+
+/* Bank end */
